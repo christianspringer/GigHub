@@ -98,3 +98,4 @@ C:\Git\GigHub\GigHub\GigHub\obj\Debug\GigHub.Migrations.InitialMigration.resourc
 C:\Git\GigHub\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.Cache
 C:\Git\GigHub\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigAndGenre.resources
 C:\Git\GigHub\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverwriteConventions.resources
+C:\Git\GigHub\GigHub\GigHub\obj\Debug\GigHub.Migrations.SeedGenres.resources

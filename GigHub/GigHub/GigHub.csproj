@@ -206,6 +206,10 @@
     <Compile Include="Migrations\201707010007122_OverwriteConventions.Designer.cs">
       <DependentUpon>201707010007122_OverwriteConventions.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707010020217_SeedGenres.cs" />
+    <Compile Include="Migrations\201707010020217_SeedGenres.Designer.cs">
+      <DependentUpon>201707010020217_SeedGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -301,6 +305,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201707010007122_OverwriteConventions.resx">
       <DependentUpon>201707010007122_OverwriteConventions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707010020217_SeedGenres.resx">
+      <DependentUpon>201707010020217_SeedGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
