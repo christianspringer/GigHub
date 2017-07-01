@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
 using GigHub.Models;
 using GigHub.ViewModels;
@@ -30,7 +26,7 @@ namespace GigHub.Controllers
             return View(viewModel);
         }
 
-        [Authorize, HttpPost]
+        [Authorize, HttpPost, ValidateAntiForgeryToken]
         public ActionResult Create(GigFormViewModel viewModel)
         {
 
